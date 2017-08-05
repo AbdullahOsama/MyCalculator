@@ -28,10 +28,8 @@ public class MainActivity extends AppCompatActivity {
         {
 
         }
-        else
-        {
-            screen.append(((Button) view).getText());
-        }
+        screen.append(((Button) view).getText());
+
     }
     public void ClearClick(View view)
     {
